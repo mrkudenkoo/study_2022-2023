@@ -1,7 +1,7 @@
 ╔══════════════════════════════════════════════════════════════════╗
 ║           ШПАРГАЛКА ПО РЕДАКТИРОВАНИЮ products.json              ║
 ╚══════════════════════════════════════════════════════════════════╝
-cd /opt/chizho_bot/webapp && git add . && git commit -m "Обновление" && git push
+cd /opt/chizho_bot/webapp && git add . && git commit -m "Обновление" && git push origin main:master
 Файл products.json содержит все данные для Mini App.
 Открой его и меняй по этой инструкции:
 
