@@ -37,7 +37,7 @@ const qtyValue = document.getElementById('qty-value');
 // === Загрузка данных ===
 async function loadData() {
     try {
-        const response = await fetch('products.json');
+        const response = await fetch(`products.json?t=${new Date().getTime()}`, { cache: 'no-store' });
         shopData = await response.json();
         initApp();
     } catch (error) {
